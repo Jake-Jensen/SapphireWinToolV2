@@ -1,0 +1,17 @@
+[package]
+name = "SapphireWinToolV2" # the name of the package
+version = "0.1.0"    # the current version, obeying semver
+authors = ["Jake Jensen <jakejensenxk@gmail.com>"]
+edition = '2021'
+rust-version = "1.73.0"
+description = "A small utility for repairing and working with Windows 11."
+documentation = "https://sapphirelabs.online/SWT_Docs"
+readme = "README.md"
+homepage = "https://sapphirelabs.online/SWT"
+repository = "https://github.com/Jake-Jensen/SapphireWinToolV2"
+license = "Apache-2.0"
+categories = ["command-line-utilities"]
+include = ["/src"]
+publish = false
+
+[dependencies]
